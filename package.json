@@ -2,7 +2,7 @@
   "name": "js-sem-orm",
   "version": "1.0.0",
   "description": "",
-  "type":"module",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Gabriel-Darbello/API-NodeJS-sem-ORM/issues"
   },
-  "homepage": "https://github.com/Gabriel-Darbello/API-NodeJS-sem-ORM#readme"
+  "homepage": "https://github.com/Gabriel-Darbello/API-NodeJS-sem-ORM#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mysql2": "^3.11.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5"
+  }
 }
